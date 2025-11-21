@@ -3,10 +3,10 @@ import { Menu, X, Gamepad2, Heart, Ghost, Play, User, Sparkles, Scroll, Map, Awa
 
 function Hero() {
     return (
-        <header className="relative z-10 container mx-auto  min-h-screen flex flex-col md:flex-row items-center justify-center pt-12 ">
+        <header className="relative z-10 container mx-auto  min-h-screen flex flex-col md:flex-row items-center justify-center pt-12 mt-14">
 
             {/* Left Column: Typography & CTA */}
-            <div className="w-full md:w-6/12 flex flex-col gap-y-4 items-start text-left relative z-20 scroll-mt-44" id="home">
+            <div className="w-full md:w-6/12 flex flex-col gap-y-4 md:items-start items-center text-left relative z-20 scroll-mt-44" id="home">
 
                 {/* Badge: Cultural Heritage - Blue Grey Background */}
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgb(67,86,99)]/50 border border-[rgb(163,176,135)] shadow-sm mb-6 animate-fade-in-up">
@@ -41,7 +41,7 @@ function Hero() {
                 </p>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-5 w-full sm:w-auto">
+                <div className="flex flex-col sm:flex-row gap-5 w-3/4 md:w-full sm:w-auto">
                     {/* Primary Button: Cream Background, Dark Text */}
                     <button className="group relative px-8 py-4 bg-[rgb(255,248,212)] text-[rgb(49,54,71)] rounded-xl font-bold shadow-[0_0_15px_rgba(255,248,212,0.3)] hover:shadow-[0_0_25px_rgba(255,248,212,0.5)] hover:translate-y-[2px] transition-all overflow-hidden flex justify-center items-center">
                         <span className="absolute top-0 left-0 w-full h-full bg-white/50 transform -skew-x-12 -translate-x-full group-hover:animate-shine"></span>
@@ -64,7 +64,7 @@ function Hero() {
             </div>
 
             {/* Right Column: Visual Illustration */}
-            <div className="w-full md:w-6/12 mt-16 md:mt-0 relative flex justify-center items-center perspective-1000">
+            <div className=" md:w-6/12 w-3/4 mt-16 md:mt-0 relative flex justify-center items-center perspective-1000">
 
                 {/* Floating Elements Layer */}
                 <div className="absolute inset-0 z-0">

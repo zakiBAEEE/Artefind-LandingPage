@@ -82,8 +82,16 @@ function Navbar() {
             {/* Mobile Menu Dropdown */}
             {isMenuOpen && (
                 <div className="md:hidden absolute top-full left-0 w-full bg-[rgb(67,86,99)] border-t border-[rgb(163,176,135)]/30 p-6 flex flex-col gap-4 shadow-xl animate-in slide-in-from-top-5">
-                    {['Beranda', 'Tentang', 'Fitur', 'Peringkat'].map((item) => (
-                        <a key={item} href="#" className="text-lg font-nusantara text-[rgb(255,248,212)] hover:text-[rgb(163,176,135)] border-b border-white/10 pb-2">{item}</a>
+                    {navLinks.map((item, index) => (
+                        <a
+                            key={index}
+                            href={`#${item.id}`} // Fallback untuk SEO/aksesibilitas
+                            onClick={(e) => handleScroll(e, item.id)} // Event handler custom
+                            className="relative text-xl font-bold text-gray-300 hover:text-[rgb(255,248,212)] transition-colors py-2 group"
+                        >
+                            {item.name}
+                            <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-[rgb(163,176,135)] transition-all duration-300 group-hover:w-full"></span>
+                        </a>
                     ))}
                 </div>
             )}
