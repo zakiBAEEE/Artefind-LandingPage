@@ -102,13 +102,13 @@ const AboutSection = () => {
 
                             {/* Tombol CTA */}
                             <div className="pt-4 flex flex-col sm:flex-row gap-4">
-                                <button
+                                {/* <button
                                     className="group flex items-center gap-3 px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
                                     style={{ backgroundColor: colors.sage, color: '#313647' }}
                                 >
                                     <Play size={18} className="fill-current" />
                                     Tonton Trailer
-                                </button>
+                                </button> */}
 
                                 <button
                                     className="flex items-center gap-2 px-6 py-3 rounded-full font-medium border transition-all duration-300 hover:bg-white/10 backdrop-blur-sm"
