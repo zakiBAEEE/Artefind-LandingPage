@@ -96,7 +96,7 @@ const AboutSection = () => {
                                     Artefind adalah perpaduan unik antara <b style={{ color: colors.sage }}>Game Kartu Koleksi (CCG)</b> dan eksplorasi Budaya Nusantara.
                                 </p>
                                 <p className="text-base leading-relaxed opacity-70 font-sans drop-shadow-md" style={{ color: colors.cream }}>
-                                    Kumpulkan artefak langka, pelajari kisah di baliknya, dan gunakan pengetahuanmu untuk memecahkan misteri kuno.
+                                    Kumpulkan artefak langka, pelajari kisah di baliknya, dan gunakan pengetahuanmu untuk memecahkan misteri.
                                 </p>
                             </div>
 

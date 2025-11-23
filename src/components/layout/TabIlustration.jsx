@@ -53,9 +53,9 @@ function TabIlustration() {
 
                         {/* Bottom Text */}
                         <div className="bg-[rgb(49,54,71)]/80 p-4 rounded-2xl backdrop-blur-sm w-full border border-white/5">
-                            <h3 className="text-2xl font-nusantara text-[rgb(255,248,212)] mb-1">Candi Borobudur</h3>
+                            <h3 className="text-2xl font-nusantara text-[rgb(255,248,212)] mb-1">Keris luk</h3>
                             <p className="text-xs text-[rgb(163,176,135)] font-mono font-bold">
-                                Misi: Temukan Stupa Emas
+                                Misi: Temukan Keris luk
                             </p>
                         </div>
 
