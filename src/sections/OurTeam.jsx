@@ -6,13 +6,14 @@ import darren from '../assets/img/darren.png';
 import rehan from '../assets/img/rehan.png';
 import nopal from '../assets/img/nopal.png';
 import ovan from '../assets/img/ovan.png';
+import tria from '../assets/img/tria.png';
 
 // --- 1. DATA STRUKTUR ---
 const teamMembers = [
     {
         id: 1,
         name: "Darren Lowell",
-        role: "Project Lead & Game Designer",
+        role: "Teknologi : Project Lead & 3D Artist, Scriptwriter",
         email: "darren.l@budayago.id",
         instagram: "sasudar.urano",
         photoUrl: darren,
@@ -21,15 +22,15 @@ const teamMembers = [
     {
         id: 2,
         name: "Tria Nanda Mughny",
-        role: "Frontend Developer",
+        role: "Budaya : Pengamat Musik Sumatera Selatan",
         email: "siti.n@budayago.id",
         instagram: "@siti_codes",
-        photoUrl: rehan,
+        photoUrl: tria,
     },
     {
         id: 3,
         name: "Ovan Kurniawan",
-        role: "Game Developer",
+        role: "Teknologi : Scriptwiter & UI Designer",
         email: "budi.s@budayago.id",
         instagram: "@budisan_db",
         photoUrl: ovan,
@@ -37,7 +38,7 @@ const teamMembers = [
     {
         id: 4,
         name: "Ahmad Naufal",
-        role: "Game Developer",
+        role: "Teknologi : 3D Artist",
         email: "citra.k@budayago.id",
         instagram: "pallio.md",
         photoUrl: nopal,
@@ -45,7 +46,7 @@ const teamMembers = [
     {
         id: 5,
         name: "Muhammad Dzaky Raihan",
-        role: "Frontend Developer",
+        role: "Teknologi : 3D Artist",
         email: "dimas.a@budayago.id",
         instagram: "dzakyrahn",
         photoUrl: rehan,
@@ -141,7 +142,7 @@ function OurTeam() {
     const members = teamMembers.filter(m => !m.isLeader);
 
     return (
-        <section className="relative py-5 overflow-hidden scroll-mt-44" id="team">
+        <section className="relative py-5 overflow-hidden scroll-mt-44 mb-8" id="team">
 
             <div className="container mx-auto px-6 relative z-10">
                 {/* Section Header */}

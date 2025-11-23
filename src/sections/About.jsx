@@ -33,7 +33,7 @@ const AboutSection = () => {
             hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl z-10">
                                 <Card
                                     pictureLink={"https://plus.unsplash.com/premium_photo-1670267552055-8f33a55c1af0?q=80&w=1170&auto=format&fit=crop"}
-                                    title={"Naga HITAM"}
+                                    title={"Naga Magis"}
                                     description={"Item Magis +10 wawasan"}
                                 />
                             </div>
@@ -46,7 +46,7 @@ const AboutSection = () => {
             hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl z-20">
                                 <Card
                                     pictureLink={"https://images.unsplash.com/photo-1689493720779-f762ab7bb5ae?q=80&w=687&auto=format&fit=crop"}
-                                    title={"Pedang HYTAMM"}
+                                    title={"Pedang Keramat"}
                                     description={"Item Magis +10 wawasan"}
                                 />
                             </div>

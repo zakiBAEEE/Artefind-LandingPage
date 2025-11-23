@@ -4,6 +4,7 @@ import BackroundLayer from './components/layout/BackgroundLayer';
 import Hero from './sections/Hero';
 import AboutSection from './sections/About';
 import OurTeam from './sections/OurTeam';
+import Footer from './components/layout/Footer';
 
 const App = () => {
 
@@ -16,8 +17,7 @@ const App = () => {
       <Hero />
       <AboutSection />
       <OurTeam />
-      <div className='h-screen'></div>
-
+      <Footer />
     </div>
   );
 };

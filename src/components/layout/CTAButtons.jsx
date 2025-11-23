@@ -13,10 +13,27 @@ function CTAButtons() {
             </button>
 
             {/* Secondary Button: Transparent with Sage Green Border */}
-            <button className="px-8 py-4 rounded-xl bg-transparent border border-[rgb(163,176,135)] text-[rgb(163,176,135)] font-bold hover:bg-[rgb(163,176,135)]/10 transition-all flex items-center justify-center gap-2 font-sans tracking-wide group">
-                <Scroll size={20} className="group-hover:rotate-12 transition-transform" /> Jelajahi
-            </button>
-        </div>
+            <a
+                className="cursor-pointer px-8 py-4 rounded-xl bg-transparent border border-[rgb(163,176,135)] text-[rgb(163,176,135)] font-bold hover:bg-[rgb(163,176,135)]/10 transition-all flex items-center justify-center gap-2 font-sans tracking-wide group"
+                href="#about"
+                onClick={(e) => {
+                    e.preventDefault(); // Mencegah URL jadi #about
+
+                    const element = document.getElementById("about");
+
+                    if (element) {
+                        element.scrollIntoView({
+                            behavior: "smooth",
+                            block: "start",
+                        });
+                    }
+                }}
+            >
+                <Scroll size={20} className="group-hover:rotate-12 transition-transform" />
+                Jelajahi
+            </a>
+
+        </div >
     );
 }
 

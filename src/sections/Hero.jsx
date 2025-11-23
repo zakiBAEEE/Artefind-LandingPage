@@ -57,7 +57,7 @@ function Hero() {
             </div>
 
             {/* Right Column: Visual Illustration */}
-            <div className="hidden md:flex w-full md:w-6/12 mt-16 md:mt-0 relative justify-center items-center perspective-1000">
+            <div className="hidden md:flex w-full  mt-16 md:mt-0 relative justify-center items-center perspective-1000">
                 <TabIlustration />
             </div>
         </header>
