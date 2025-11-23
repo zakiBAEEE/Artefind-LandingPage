@@ -9,7 +9,7 @@ function Card({ pictureLink, title, description }) {
     };
     return (
         <div
-            className="relative w-60 h-80 rounded-xl shadow-2xl overflow-hidden group"
+            className=" w-60 h-80 rounded-xl shadow-2xl overflow-hidden group"
             style={{
                 borderColor: colors.sage,
                 backgroundColor: colors.cardDark

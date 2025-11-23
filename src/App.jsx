@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar';
 import BackroundLayer from './components/layout/BackgroundLayer';
 import Hero from './sections/Hero';
 import AboutSection from './sections/About';
+import OurTeam from './sections/OurTeam';
 
 const App = () => {
 
@@ -13,7 +14,8 @@ const App = () => {
       <BackroundLayer />
       <Navbar />
       <Hero />
-      <AboutSection/>
+      <AboutSection />
+      <OurTeam />
       <div className='h-screen'></div>
 
     </div>

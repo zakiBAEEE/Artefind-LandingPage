@@ -68,7 +68,7 @@ const AboutSection = () => {
             Posisi: Miring Kanan Ekstrim, seolah tergelincir
         */}
                             <div className="w-48 transform transition-all duration-500 ease-out 
-            rotate-[25deg] -translate-y-4 -translate-x-6
+            rotate-[25deg] -translate-y-12 -translate-x-6
             hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl z-10">
                                 <Card
                                     pictureLink={"https://plus.unsplash.com/premium_photo-1698170370603-62f83e96d04e?q=80&w=687&auto=format&fit=crop"}
@@ -81,7 +81,7 @@ const AboutSection = () => {
                     </div>
 
                     {/* --- BAGIAN KANAN: TEKS DESKRIPSI --- */}
-                    <div className="w-full container md:w-3/4 text-left space-y-6 flex flex-col gap-y-4 items-center mt-32">
+                    <div className="w-full container md:w-3/4 text-left space-y-6 flex flex-col gap-y-4 items-center md:mt-32">
                         <div className='w-3/4 flex flex-col gap-y-9'>
                             <h2
                                 className="text-4xl md:text-6xl font-bold font-serif leading-tight drop-shadow-lg"

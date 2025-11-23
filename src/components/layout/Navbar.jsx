@@ -9,7 +9,7 @@ function Navbar() {
     const navLinks = [
         { name: 'Beranda', id: 'home' },     // Pastikan section Beranda punya id="home"
         { name: 'Tentang', id: 'about' },    // Pastikan section Tentang punya id="about"
-        { name: 'Fitur', id: 'features' },
+        { name: 'Gameplay', id: 'features' },
         { name: 'Tim Kami', id: 'team' }
     ];
 
