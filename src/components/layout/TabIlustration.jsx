@@ -3,7 +3,7 @@ import { Menu, X, Gamepad2, Heart, Ghost, Play, User, Sparkles, Scroll, Map, Awa
 
 function TabIlustration() {
     return (
-        <div className=" md:w-6/12 w-3/4 relative flex justify-center items-center perspective-1000">
+        <div className="w-3/4 md:w-11/12 relative flex justify-center items-center perspective-1000">
 
             {/* Floating Elements Layer */}
             <div className="absolute inset-0 z-0">

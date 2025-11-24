@@ -5,10 +5,10 @@ import CTAButtons from "../components/layout/CTAButtons";
 
 function Hero() {
     return (
-        <header className="relative z-10 container mx-auto  min-h-screen flex flex-col md:flex-row items-center justify-center pt-12 mt-14">
+        <header className="relative z-10 container mx-auto  min-h-screen flex flex-col md:flex-row items-center justify-center pt-12 mt-14 md:w-3/4">
 
             {/* Left Column: Typography & CTA */}
-            <div className="w-full md:w-6/12 flex flex-col gap-y-4 md:items-start items-center text-left relative z-20 scroll-mt-44" id="home">
+            <div className="w-full  flex flex-col gap-y-4 md:items-start items-center text-left relative z-20 scroll-mt-44" id="home">
 
                 {/* Badge: Cultural Heritage - Blue Grey Background */}
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[rgb(67,86,99)]/50 border border-[rgb(163,176,135)] shadow-sm mb-6 animate-fade-in-up">
@@ -42,7 +42,7 @@ function Hero() {
                     Jelajahi <strong className="text-[rgb(255,248,212)] font-semibold">Museum Nusantara</strong>. Kumpulkan artefak bersejarah yang hilang dalam dimensi digital dan jadilah penjaga budaya sejati.
                 </p>
 
-                <div className="block md:hidden w-full mb-10 flex justify-center">
+                <div className=" md:hidden w-full mb-10 flex justify-center">
                     <TabIlustration />
                 </div>
 
@@ -57,7 +57,7 @@ function Hero() {
             </div>
 
             {/* Right Column: Visual Illustration */}
-            <div className="hidden md:flex w-full  mt-16 md:mt-0 relative justify-center items-center perspective-1000">
+            <div className="hidden md:flex w-full mt-16 md:mt-0 relative justify-center items-center perspective-1000">
                 <TabIlustration />
             </div>
         </header>
