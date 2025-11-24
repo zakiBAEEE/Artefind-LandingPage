@@ -149,7 +149,7 @@ function OurTeam() {
                 <div className="text-center max-w-2xl mx-auto mb-20">
                     <div className="flex items-center justify-center gap-4 mb-4">
                         <div className="h-[2px] w-12 bg-[rgb(163,176,135)] opacity-50"></div>
-                        <span className="text-[rgb(163,176,135)] font-mono font-bold uppercase tracking-[0.2em] text-lg">Tim Srikode</span>
+                        <span className="text-[rgb(163,176,135)] font-mono font-extrabold uppercase tracking-[0.2em] text-xl">Tim Srikode</span>
                         <div className="h-[2px] w-12 bg-[rgb(163,176,135)] opacity-50"></div>
                     </div>
                     <h2 className="text-4xl md:text-6xl font-bold font-serif leading-tight drop-shadow-lg">
