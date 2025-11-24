@@ -1,6 +1,11 @@
 import React from 'react';
 import { Play, ArrowRight } from 'lucide-react';
 import Card from '../components/layout/Card';
+import keris from '../assets/img/keris.jpeg';
+import batikMegaMendung from '../assets/img/batikMegaMendung.jpeg';
+import rencong from '../assets/img/rencong.jpeg';
+import arcaAirlangga from '../assets/img/arcaAirlangga.jpeg';
+
 
 const AboutSection = () => {
     // Definisi warna untuk TEKS dan KARTU saja (Background section dihapus)
@@ -32,9 +37,9 @@ const AboutSection = () => {
             rotate-[-15deg] translate-y-2 translate-x-4
             hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl z-10">
                                 <Card
-                                    pictureLink={"https://plus.unsplash.com/premium_photo-1670267552055-8f33a55c1af0?q=80&w=1170&auto=format&fit=crop"}
-                                    title={"Naga Magis"}
-                                    description={"Item Magis +10 wawasan"}
+                                    pictureLink={keris}
+                                    title={"Keris Lekuk 7"}
+                                    description={"Item Senjata +10 wawasan"}
                                 />
                             </div>
 
@@ -45,9 +50,9 @@ const AboutSection = () => {
             rotate-[12deg] -translate-y-8 -translate-x-2
             hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl z-20">
                                 <Card
-                                    pictureLink={"https://images.unsplash.com/photo-1689493720779-f762ab7bb5ae?q=80&w=687&auto=format&fit=crop"}
-                                    title={"Pedang Keramat"}
-                                    description={"Item Magis +10 wawasan"}
+                                    pictureLink={batikMegaMendung}
+                                    title={"Batik Mega Mendung"}
+                                    description={"Batik Elegan dari Cirebon"}
                                 />
                             </div>
 
@@ -57,10 +62,11 @@ const AboutSection = () => {
                             <div className="w-52 transform transition-all duration-500 ease-out 
             rotate-[-5deg] translate-y-6 z-30
             hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl">
+                               r:scale-110 hover:z-50 hover:shadow-2xl z-20">
                                 <Card
-                                    pictureLink={"https://images.unsplash.com/photo-1642609628537-fb6a4e67e3a5?q=80&w=687&auto=format&fit=crop"}
-                                    title={"The Lost Keris"}
-                                    description={"Temukan keris langka +5 wawasan"}
+                                    pictureLink={rencong}
+                                    title={"Rencong Aceh"}
+                                    description={"Senjata Tradisional Aceh"}
                                 />
                             </div>
 
@@ -71,7 +77,7 @@ const AboutSection = () => {
             rotate-[25deg] -translate-y-12 -translate-x-6
             hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl z-10">
                                 <Card
-                                    pictureLink={"https://plus.unsplash.com/premium_photo-1698170370603-62f83e96d04e?q=80&w=687&auto=format&fit=crop"}
+                                    pictureLink={arcaAirlangga}
                                     title={"Zirah Legendaris"}
                                     description={"Item Magis +10 wawasan"}
                                 />

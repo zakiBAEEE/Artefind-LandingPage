@@ -1,6 +1,11 @@
 import React from 'react';
 // Pastikan Anda mengimpor ikon jika diperlukan nanti
 // import { Play, ArrowRight } from 'lucide-react';
+import keris from '../../assets/img/keris.jpeg';
+import batikMegaMendung from '../../assets/img/batikMegaMendung.jpeg';
+import rencong from '../../assets/img/rencong.jpeg';
+import arcaAirlangga from '../../assets/img/arcaAirlangga.jpeg';
+
 
 const CardStack = () => {
     // Definisi warna (Sama seperti sebelumnya)
