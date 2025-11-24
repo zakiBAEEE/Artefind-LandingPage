@@ -34,8 +34,7 @@ const AboutSection = () => {
             Posisi: Miring Kiri Tajam, Seolah dilempar dari kiri atas
         */}
                             <div className="w-48 transform transition-all duration-500 ease-out 
-            rotate-[-15deg] translate-y-2 translate-x-4
-            hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl z-10">
+            rotate-[-15deg] translate-y-2 translate-x-4 hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl z-10">
                                 <Card
                                     pictureLink={keris}
                                     title={"Keris Lekuk 7"}
@@ -62,7 +61,7 @@ const AboutSection = () => {
                             <div className="w-52 transform transition-all duration-500 ease-out 
             rotate-[-5deg] translate-y-6 z-30
             hover:rotate-0 hover:scale-110 hover:z-50 hover:shadow-2xl">
-                               r:scale-110 hover:z-50 hover:shadow-2xl z-20">
+                            
                                 <Card
                                     pictureLink={rencong}
                                     title={"Rencong Aceh"}
@@ -108,13 +107,6 @@ const AboutSection = () => {
 
                             {/* Tombol CTA */}
                             <div className="pt-4 flex flex-col sm:flex-row gap-4">
-                                {/* <button
-                                    className="group flex items-center gap-3 px-8 py-3 rounded-full font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:-translate-y-1"
-                                    style={{ backgroundColor: colors.sage, color: '#313647' }}
-                                >
-                                    <Play size={18} className="fill-current" />
-                                    Tonton Trailer
-                                </button> */}
 
                                 <button
                                     className="flex items-center gap-2 px-6 py-3 rounded-full font-medium border transition-all duration-300 hover:bg-white/10 backdrop-blur-sm"
